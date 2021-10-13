@@ -12,7 +12,6 @@ const Main = ({ activeNote, onUpdateNote }) => {
   };
 
   if (!activeNote) return <div className="no-active-note">Select Note or Add New Note</div>;
-
   return (
     <div className="app-main">
       <div className="app-main-note-edit">
